@@ -1,75 +1,67 @@
 <div class="rightbar col-lg-4 col-md-4 col-sm-12">
-    <!--Acoordeon--->
-    <div class="ajaxbloc" data-ajax-env="4f3e43a202988ed0b85423f5f9a38dc2"
-      data-origin="-Historico-de-resultados-electorales-.html">
+  <!--Acoordeon--->
+  <div class="ajaxbloc" data-ajax-env="4f3e43a202988ed0b85423f5f9a38dc2"
+    data-origin="-Historico-de-resultados-electorales-.html">
 
-      <div class="accordion" id="accordionSubmenu">
-        <div class="mainbtn darkblue seemorebtn backbtn">
-          <a class="crayon consultarbtn" href="javascript:window.history.back();"> Atrás </a>
-        </div>
+    <div class="accordion" id="accordionSubmenu">
+      <div class="mainbtn darkblue seemorebtn backbtn">
+        <a class="crayon consultarbtn" href="javascript:window.history.back();"> Atrás </a>
+      </div>
 
-        <div class="accordion-item accordion-section">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button arrow-accordion collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <h3 class="title-accordion">Histórico de resultados electorales</h3>
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse accordion-subsection collapse"
-            aria-labelledby="headingThree" data-bs-parent="#accordionSubmenu">
-            <div class="accordion-body">
-              <ul class="list-submenu">
+      <div class="accordion-item accordion-section">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button arrow-accordion collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <h3 class="title-accordion">Histórico de resultados electorales</h3>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse accordion-subsection collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionSubmenu">
+          <div class="accordion-body">
+            <ul class="list-submenu">
+              <li class="item-submenu-section"><a
+                  href="https://www.registraduria.gov.co/Elecciones-de-Autoridades-Territoriales.html"
+                  class="a-normal link-style">Elecciones de Autoridades Territoriales</a></li>
 
-                <!-- {titre==^[0-9]+\.} {par num titre} -->
-                <!-- {par titre} -->
+              <li class="item-submenu-section"><a
+                  href="https://www.registraduria.gov.co/Elecciones-de-Presidente-y-Vicepresidente-de-la-Republica.html"
+                  class="a-normal link-style">Elecciones de Presidente y Vicepresidente de la República</a>
+              </li>
 
-
-                <li class="item-submenu-section"><a
-                    href="https://www.registraduria.gov.co/Elecciones-de-Autoridades-Territoriales.html"
-                    class="a-normal link-style">Elecciones de Autoridades Territoriales</a></li>
-
-                <li class="item-submenu-section"><a
-                    href="https://www.registraduria.gov.co/Elecciones-de-Presidente-y-Vicepresidente-de-la-Republica.html"
-                    class="a-normal link-style">Elecciones de Presidente y Vicepresidente de la República</a>
-                </li>
-
-                <li class="item-submenu-section"><a
-                    href="https://www.registraduria.gov.co/Elecciones-Congreso-de-la-Republica.html"
-                    class="a-normal link-style">Elecciones Congreso de la República</a></li>
-
-                <!--//B_subsecciones-->
-
-              </ul>
-            </div>
+              <li class="item-submenu-section"><a
+                  href="https://www.registraduria.gov.co/Elecciones-Congreso-de-la-Republica.html"
+                  class="a-normal link-style">Elecciones Congreso de la República</a></li>
+            </ul>
           </div>
         </div>
       </div>
-
-    </div><!--ajaxbloc--> <!--BLOCKS--->
-    <div class="accordion" id="accordionSubmenu">
-      <div class="mydocument glassitem" id="mydocument">
-        <h4 class="titlemydoc darkbluecol">¿Está listo mi documento de identidad?</h4>
-        <form class="mydocform" id="frm-check-document"
-          action="https://wsp.registraduria.gov.co/estado_docs/documento/consultar" name="cedula" method="post"
-          target="_blank">
-          <input class="lightinput docnumber" name="cedula" autocomplete="off" maxlength="11" id="phone"
-            type="number" required="" placeholder="Número de documento">
-          <button class="mainbtn darkblue consultarbtn" type="submit" value="Buscar">Consultar</button>
-        </form>
-      </div>
-
-      <script>
-        var form_el = document.getElementById("frm-check-document");
-        form_el.addEventListener("submit", function (evt) {
-          let url = 'https://wsp.registraduria.gov.co/estado_docs/documento/consultar/id=' + $("#phone").val();
-          window.location.href = url;
-
-          let a = document.createElement('a');
-          a.target = '_blank';
-          a.href = url;
-          a.click();
-          evt.preventDefault();
-        });
-      </script>
     </div>
+
   </div>
+  <div class="accordion" id="accordionSubmenu">
+    <div class="mydocument glassitem" id="mydocument">
+      <h4 class="titlemydoc darkbluecol">¿Está listo mi documento de identidad?</h4>
+      <form class="mydocform" id="frm-check-document"
+        action="https://wsp.registraduria.gov.co/estado_docs/documento/consultar" name="cedula" method="post"
+        target="_blank">
+        <input class="lightinput docnumber" name="cedula" autocomplete="off" maxlength="11" id="phone" type="number"
+          required="" placeholder="Número de documento">
+        <button class="mainbtn darkblue consultarbtn" type="submit" value="Buscar">Consultar</button>
+      </form>
+    </div>
+
+    <script>
+      var form_el = document.getElementById("frm-check-document");
+      form_el.addEventListener("submit", function (evt) {
+        let url = 'https://wsp.registraduria.gov.co/estado_docs/documento/consultar/id=' + $("#phone").val();
+        window.location.href = url;
+
+        let a = document.createElement('a');
+        a.target = '_blank';
+        a.href = url;
+        a.click();
+        evt.preventDefault();
+      });
+    </script>
+  </div>
+</div>
