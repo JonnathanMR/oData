@@ -1,0 +1,160 @@
+.rightbar {
+    position: absolute;
+    right: 8%;
+    top: 295px;
+    width: 25%;
+}
+
+.accordion {
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.accordion-section {
+    background: linear-gradient(168.19deg, rgba(255, 255, 255, 0.8) 2.3%, rgba(255, 255, 255, 0.6) 96.38%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 30px !important;
+}
+
+.accordion-item {
+    padding: 0 20px;
+}
+
+#mydocument {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 10px 0px;
+    padding: 0px 20px;
+}
+
+.glassitem {
+    background: linear-gradient(168.19deg, rgba(255, 255, 255, 0.8) 2.3%, rgba(255, 255, 255, 0.6) 96.38%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    backdrop-filter: blur(4px);
+    border-radius: 30px;
+}
+
+.mainbtn{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 1em;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.backbtn{
+    width: 100% !important;
+    margin-bottom: 50px;
+}
+.seemorebtn, .consultarbtn{
+    color: #FFFFFF;
+}
+.consultarbtn, .seemoredata{
+    width: 100% !important;
+}
+.searchfilter{
+    height: 56px;
+}
+.seemorenews{
+    float: none;
+    width: 350px;
+    margin: 0px auto 40px auto;
+}
+.darkblue {
+    background-color: #002647;
+}
+.cleardarkblue{
+    background: transparent;
+    border: 2px solid #002D55;
+    box-sizing: border-box;
+    border-radius: 35px;
+    color: #002D55;
+}
+.seedate{
+    color: #FFFFFF;
+}
+
+.on{
+    z-index: 2;
+    color: #0a58ca;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    border-radius: 50px;
+    padding: 5px;
+}
+a.pagination-item-label:hover{
+    color: #0a58ca;
+}
+
+.list-actions{
+    display: flex;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+}
+.action-container{
+    display: block;
+    float: left;
+    margin: 10px;
+}
+.page-item {
+    padding: 0.2em 0.3em !important;
+}
+.see-btn{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-see.png") !important;
+}
+.dwn-btn{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icondwn.svg") !important;
+}
+.share-btn{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-share.png") !important;
+}
+.call-btn {
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-call.png")!important;
+}
+
+.btn-action{
+    display: block;
+    /*float: left;*/
+    width: 45px;
+    height: 45px;
+    background-color: #002D55 !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    background-size: auto;
+    border-radius: 45px;
+    margin: 0px auto;
+}
+
+.docnumber, .inputdata, .filter {
+    width: 100%;
+}
+
+.lightinput {
+    display: block;
+    background-color: #FFFFFF;
+    border: 2px solid #002D55;
+    box-sizing: border-box;
+    border-radius: 35px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+input {
+    text-align: center;
+}

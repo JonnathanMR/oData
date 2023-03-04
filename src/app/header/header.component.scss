@@ -1,0 +1,765 @@
+/*****HEADER*****/
+.deskheader{
+    background: linear-gradient(90.77deg, rgba(255, 255, 255, 0.72) 9.57%, rgba(255, 255, 255, 0.45) 95.45%);
+    backdrop-filter: blur(4px);
+    border-radius: 40px;
+    padding: 0px 0px 0px 0px;
+    padding: 15px 20px 15px 20px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 99;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.mainbar{
+    display: block !important;
+}
+.logoregistraduria{
+    width: 280px;
+    height: 67px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/logo-mainlogo.svg");
+    background-size: contain;
+}
+.searchbox{
+    display: block;
+    float: right;
+}
+.searchinp{
+    font-family: "Open Sans";
+    font-size: 1em;
+    color: #002D55;
+    background: rgba(209, 223, 235, 1);
+    border-radius: 30px;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    position: relative;
+    z-index: 4;
+    float: left;
+    width: 300px;
+    height: 50px;
+    padding: 0px 0px 0px 20px;
+}
+.searchinp::placeholder{
+    font-family: "Open Sans";
+    font-size: 1em;
+    color: #002D55;
+}
+.ico-search{
+    display: block;
+    float: right;
+    position: relative;
+    z-index: 5;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-search.svg");
+    background-position: 50% 50%;
+    margin: 0px 0px 0px -50px;
+}
+.openmen-desk{
+    display: block;
+    float: right;
+    border-radius: 30px;
+    background-color: #002D55;
+    height: 50px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.txtopmen{
+    font-family: "Open Sans";
+    font-size: 1em;
+    color: #ffffff;
+    margin: 12px 20px 0px 20px;
+    float: left;
+}
+.ico-openmen{
+    display: block;
+    float: right;
+    background-color: #00F5E8;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-hamburguer.svg");
+    margin: 5px 5px 0px 0px;
+}
+.openmen-mob{
+    display: block;
+    float: left;
+    width: 15%;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/ico-hamburguermenu.svg");
+    margin: 0px;
+}
+.searchico{
+    display: block;
+    float: right;
+    width: 15%;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/ico-searchmob.svg");
+    margin: 0px 0px 0px 0px;
+}
+
+.mobheader {
+    display: none;
+}
+
+.rightbar {
+    position: absolute;
+    right: 16%;
+    top: 230px;
+    width: 20%;
+}
+
+h4 {
+    font-size: 18px !important;
+    color: #002D55;
+}
+
+.offcanvas {
+    background: radial-gradient(300px 300px at bottom right, #00F5E8 0%, #002D55 100%);
+}
+
+.title-menu {
+    color: #ffffff;
+}
+
+.mobsearchbox {
+    display: none;
+    justify-content: center;
+}
+
+.accordion {
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.accordion-header-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.accordion-header {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+.item-section {
+    margin: 10px 0px;
+    width: 100%;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 30px;
+    display: flex;
+}
+
+.close-white {
+    color: #ffffff;
+    background: url('https://www.registraduria.gov.co/squelettes/images/close-circle.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/*****RESPONSIVE STYLES*****/
+/* Small screens */ /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+
+    .googleNews {
+        max-width: 350px;
+    }
+
+    .googleNews img {
+        width: 90px;
+        height: 90px;
+        top: -22px;
+    }
+
+    .tituloNews {
+        padding: 6px 10px 6px 70px;
+    }
+
+    #googleNews:hover .tituloNews2 {
+        padding: 6px 70px 6px 10px;
+    }
+
+    #googleNews:hover .move-right {
+        transform: translate(300px, 0);
+        -webkit-transform: translate(300px, 0);     /** Chrome & Safari **/
+        -moz-transform: translate(300px, 0);    /** Firefox **/
+        -o-transform: translate(300px, 0);    /** Opera **/
+    }
+
+    .deskheader {
+        display: none;
+    }
+
+    .mobheader {
+        display: block;
+        z-index: 99;
+        width: 100%;
+        height: 70px;
+        background: linear-gradient(90.77deg, rgba(255, 255, 255, 0.72) 9.57%, rgba(255, 255, 255, 0.45) 95.45%);
+        backdrop-filter: blur(4px);
+        border-radius: 40px;
+        margin: 20px 0px 10px 0px;
+        padding: 5px;
+    }
+    .logoregistraduria{
+        /* background-position: 10px 5px; */
+        width: 70%;
+        height: 50px;
+        background-size: contain;
+        margin-top: 5px;
+    }
+    .mobsearchbox{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-quick{
+        width: 50%;
+    }
+    .mainbtn{
+        width: 100%;
+    }
+
+    #carousel-home {
+        margin-top: 20px;
+    }
+
+    .baseslide {
+        padding-top: 50px;
+        background-position: 75%;
+    }
+
+    .baseslide h1{
+        font-size: 26px;
+    }
+
+    .text-slide{
+        background-color: rgba(0,45,85,0.7);
+    }
+
+    .baseslide p{
+        font-size: 14px;
+    }
+
+    .btn-seemoreslide {
+        padding: 5px 20px 5px 20px;
+    }
+
+    .carousel-indicators{
+        margin-left: 10%;
+    }
+
+    .title-services {
+        margin-top: 20px;
+    }
+
+    .title-service {
+        padding: 0px 20px;
+    }
+
+    .title-whois {
+        padding-top: 30px;
+    }
+
+    .textwhois {
+        padding: 0px 30px;
+    }
+
+    .seemorenew {
+        bottom: 20px;
+    }
+
+    .select {
+        width: 100%;
+    }
+
+    .btn-data {
+        background-position: 20px 27px;
+        background-size: 8%;
+        padding: 10px 30px 10px 110px;
+        min-height: auto;
+        font-size: 14px;
+    }
+
+    .breaddesk {
+        display: none;
+    }
+
+    .breamobile {
+        display: block;
+    }
+
+    .text-intro-subhome {
+        display: none;
+    }
+
+    .text-mobile {
+        display: block;
+        color: #000000;
+    }
+
+    #text-intro-mobile {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        display: none;
+    }
+
+    .containerbann-intern {
+        margin-top: 0;
+        padding: 0px 20px;
+    }
+
+    .imagebannintern-subhome {
+        height: 220px;
+        padding-top: 100px;
+    }
+
+    .title-section-subhome {
+        font-size: 20px; 
+    }
+
+    .btnsearch {
+        margin-top: 20px;
+    }
+
+    .table-list-files {
+        display: block;
+    }
+
+    /*****RESPONSIVE TABLE******/
+    #main-table {
+        border: 0;
+    }
+
+    #main-table caption {
+        font-size: 1.3em;
+    }
+
+    #main-table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    #main-table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    #main-table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    #main-table td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        width: 100%;
+        height: 20px;
+        text-align: left;
+    }
+
+    #main-table td:last-child {
+        border-bottom: 0;
+        min-height: 130px;
+    }
+
+    .btn-action {
+        margin-top: 0px !important;
+    }
+
+    .blocks {
+        display: none;
+    }
+
+    .button-link {
+        /* background-position: 50% 20%; */
+        /* background-size: 20px; */
+        /* padding-top: 35px; */
+        flex-direction: column;
+        line-height: 1em;
+        height: 65px;
+        font-size: 13px;
+    }
+    .button-link img {
+        padding-right: 0;
+        width: 40px;
+        height: 30px;
+    }
+
+    .controls {
+        width: 70px;
+        margin-right: 45px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 35px;
+    }
+
+    .boton-alice {
+        bottom: 140px;
+    }
+
+    .mdp-readabler-trigger-button-box.bottom-right {
+        bottom: 60px;
+    }
+
+    .imageart {
+        width: auto;
+        height: 100%;
+        border-radius: 30px;
+    }
+
+    .list-actions {
+        display: flex;
+        flex-direction: column;
+    }
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination{
+        justify-content: end !important;
+    }
+
+    /*****404Error*****/
+    .text-error-404 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0 0 0;
+        padding: 0;
+    }
+
+    .title-404 {
+        font-size: 100px;
+        font-weight: 700;
+    }
+
+    .notice-404 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .text-404 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .flex-section {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .row-services-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-banner {
+        width: 100%;
+        height: auto;
+        background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(247, 247, 247, 0.6);
+        backdrop-filter: blur(7px);
+        border-radius: 30px;
+        padding: 0px 20px;
+        margin: 10px 10px;
+        position: relative;
+    }
+    .services-banner-tr{
+        width: 100%;
+        height: auto;
+        background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(247, 247, 247, 0.6);
+        backdrop-filter: blur(7px);
+        border-radius: 30px;
+        padding: 0px 20px;
+        margin: 0px 10px 0px 0px;
+        position: relative;
+    }
+    .services-banner-tr{
+        width: 100%;
+        height: auto;
+        background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(247, 247, 247, 0.6);
+        backdrop-filter: blur(7px);
+        border-radius: 30px;
+        padding: 0px 20px;
+        margin: 0px 10px 0px 0px;
+        position: relative;
+    }
+    .civil-register{
+        margin-left: 0;
+    }
+    .elect-banner{
+        margin: 20px 0px;
+        min-height: auto;
+    }
+    .content-footer{
+        flex-direction: column;
+    }
+    .btn-data-container{
+        min-width: 100%;
+    }
+    #mydocument {
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 30px 0px;
+        padding: 0px 20px;
+    }
+    .cedae{
+        background-image: url("https://www.registraduria.gov.co/squelettes/images/CEDAE.png");
+        background-position: 50% 20% !important;
+    }
+    .searchico{
+        background-image: none;
+        width: 0;
+    }
+}
+
+
+/* REPISADO CSS SPIP */
+
+/*******Medium screens****/
+@media only screen and (min-width: 40.063em) and (max-width: 74.9375em) {
+    .btn-data {
+        background-position: 20px 27px;
+        height: 100px;
+        padding: 10px 30px 10px 110px;
+        min-height: auto;
+
+    }
+    #mydocument {
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 30px 0px;
+        padding: 0px 20px;
+    }
+
+    .cedae {
+
+        background-position: 50% 33% !important;
+    }
+    .searchico{
+        background-image: none;
+    }
+    .button-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        width: 100%;
+        height: 75px;
+        background-repeat: no-repeat;
+        background-size: inherit;
+        background-position: 50% 33%;
+        background-color: rgb(0, 45, 85);
+        /* color: rgb(77, 108, 136); */
+        /* color: #0a4a83; */
+        color: #00F5E8;
+        font-size: 14px;
+        text-align: center;
+        /* padding-top: 45px; */
+    }
+    .active-button {
+        color: #002D55;
+    }
+} /* min-width 641px, medium screens */ /**** DISABLE BREAKPOINT***/
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+    .logoregistraduria {
+        height: 60px;
+        padding: 10px 0px;
+        background-size: contain;
+        background-position: 10px 0px
+    }
+    .mainbtn{
+        width: 60%;
+    }
+    .mobsearchbox{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-quick{
+        width: 50%;
+    }
+    .consultarbtn{
+        width: 100% !important;
+    }
+    .deskheader {
+        display: none;
+    }
+    .searchico{
+        background-image: none;
+    }
+    .mobheader {
+        display: block;
+        z-index: 99;
+        width: 100%;
+        height: 70px;
+        background: linear-gradient(90.77deg, rgba(255, 255, 255, 0.72) 9.57%, rgba(255, 255, 255, 0.45) 95.45%);
+        backdrop-filter: blur(4px);
+        border-radius: 40px;
+        margin: 20px 0px 10px 0px;
+        padding: 5px;
+    }
+
+    .btnsearch {
+        margin-top: 20px;
+    }
+
+    .button-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        width: 100%;
+        height: 75px;
+        background-repeat: no-repeat;
+        background-size: inherit;
+        background-position: 50% 33%;
+        background-color: rgb(0, 45, 85);
+        /* color: rgb(77, 108, 136); */
+        color: #00F5E8;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .active-button {
+        color: #002D55;
+    }
+
+    .btn-data {
+        background-position: 20px 27px;
+        background-size: 8%;
+        height: 100px;
+        padding: 20px 0px 20px 90px;
+        min-height: auto;
+
+    }
+
+    .list-actions{
+        display: flex;
+        flex-direction: column;
+    }
+    /*****404Error*****/
+    .text-error-404{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0 0 0;
+        padding: 0;
+
+    }
+    .title-404{
+        font-size: 100px;
+        font-weight: 700;
+    }
+    .notice-404{
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .text-404{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .row-services-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .services-banner{
+        width: 100%;
+        height: auto;
+        background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(247, 247, 247, 0.6);
+        backdrop-filter: blur(7px);
+        border-radius: 30px;
+        padding: 0px 20px;
+        margin: 10px 10px
+    }
+    .services-banner-tr{
+        width: 100%;
+        height: auto;
+        background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(247, 247, 247, 0.6);
+        backdrop-filter: blur(7px);
+        border-radius: 30px;
+        padding: 0px 20px;
+        margin: 0px 10px 0px 0px;
+    }
+    .civil-register{
+        margin-left: 0;
+    }
+    #mydocument {
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 30px 0px;
+        padding: 0px 20px;
+    }
+    .elect-banner{
+        margin: 20px 0px;
+        min-height: auto;
+    }
+    .content-footer{
+        flex-direction: column;
+    }
+    .btn-data-container{
+        min-width: 100%;
+    }
+}
+/*******Large screens****/
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+/*******XLarge screens****/
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+/*******XXLarge screens****/
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */

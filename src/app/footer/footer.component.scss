@@ -1,0 +1,444 @@
+footer{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px 0px 0px;
+    background: radial-gradient(circle at 1% 1%, rgba(0,245,227,0.5), transparent 10%),radial-gradient(circle at 99% 99%, rgba(0,245,227,0.5), transparent 10%),radial-gradient(circle at 50% 50%, #002D55, #002D55 100%);
+}
+.white {
+    color: #f0f0f0;
+}
+.disclamer{
+    float: left;
+}
+.menu-footer{
+    display: block;
+    float: left;
+    padding-top: 20px;
+}
+.logo-container{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin: 30px 0px;
+    /* padding-left: 50px; */
+    text-align: center;
+}
+.logo-container img{
+    display: inline-block;
+    /* float: left; */
+    width: 150px;
+    height: auto;
+}
+.info-img{
+    width: 30px;
+    height: 30px;
+}
+.log-rncefooter{
+    height: 100% !important;
+    width: auto !important;
+}
+.socialnet-container{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.socialnet{
+    display: inline-block;
+    /* float: left; */
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.socialnet:last-child{
+    margin-right: 0;
+}
+.facebook{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/ico-footer-facebook.svg");
+}
+.twitter{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/ico-footer-twitter.svg");
+}
+.youtube{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/ico-footer-youtube.svg");
+}
+.instagram{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/ico-footer-instagram.svg");
+}
+.linkedin{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/ico-footer-linkedin.svg");
+}
+.tiktok{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/ico-footer-tiktok.png");
+}
+.kwai{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/ico-footer-kwai.svg");
+}
+
+.accordion-button{
+    color: #FFFFFF;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+
+}
+
+.accordion-button:not(.collapsed){
+    color: #FFFFFF;
+}
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    box-shadow: none;
+}
+.accordion-item{
+    background-color: transparent;
+    border: none;
+}
+
+.arrow-accordion{
+    color: #002D55;
+}
+.arrow-accordion::after{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/Chevron-rightarrowblue.svg") !important;
+}
+.arrow-accordion:not(.collapsed)::after{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/Chevron-rightarrowblue.svg") !important;
+}
+
+.content-footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+}
+.content-sections{
+    padding: 0px 20px 0px 0px;
+}
+.bar-footer{
+    margin-bottom: 60px;
+    width: 100%;
+    background-color:  #021C34;
+    text-align: center;
+}
+
+
+/* MENU LATERAL CONTÁCTENOS */
+.contact {
+    /* display: none; */
+    z-index: 999;
+    position: fixed;
+    right: -175px;
+    /* right: 0; */
+    bottom: 90px;
+    transform: translateY(-50%);
+    transition: 600ms ease-in-out; 
+}
+.contact:before {
+    content: "Contáctenos";
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+    border-radius: 5px 0 5px 0;
+    padding: 0.5rem 1rem;
+    background: #002d55;
+    box-shadow: 0px 0px 5px 0px #ddd;
+    color: white;
+    position: absolute;
+    left: -4.1rem;
+    top: 50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transform: translateY(-50%) rotate(-90deg); 
+}
+.contact:hover {
+    right: 0;
+    transition: 600ms ease-in-out; 
+}
+.contact:hover:before {
+    background: #002d55; 
+}
+.contact .content {
+    min-width: 200px;
+    background: white;
+    box-shadow: 0px 0px 20px 0px #ddd; 
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.contact .content .item {
+    padding: 0.5rem;
+    padding-left: 35px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 100%; 
+    border-bottom: 1px solid #f0f0f0; 
+}
+
+.contact .content .item:hover {
+    background: #eaeaea; 
+}
+.contact .content .item .icon {
+    font-size: 130%;
+    color: #002d55; 
+    padding-left: 14px;
+    padding-right: 5px;
+}
+.contact .content .item .minor {
+    font-size: 60%;
+    margin-left: 2rem;
+    font-weight: normal;
+    font-style: italic; 
+}
+
+
+.menu-item{
+    cursor: pointer;
+}
+.mlft{
+    margin-left: 40px;
+}
+/*****TRAMITES Y SERVICIOS HOMEE*****/
+.title-servtrami{
+    margin: 0px 0px 60px 0px;
+    padding: 0;
+}
+.date-agend{
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background: radial-gradient(83.39% 182.58% at 89.29% 10.4%, rgba(0, 245, 232, 0.63) 0%, #002D55 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    backdrop-filter: blur(7px);
+    border-radius: 30px;
+}
+.row-titleicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.civil-register{
+    margin-left: 200px;
+}
+.row-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btndate{
+    color: #002D55;
+    border-radius: 30px;
+    padding: 10px 25px;
+
+}
+a.date-btn:hover{
+    color: #002D55;
+}
+.row-services-banner{
+    display: flex;
+    margin-bottom: 20px;
+}
+.services-banner{
+    width: 33.3333333%;
+    height: auto;
+    background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(247, 247, 247, 0.6);
+    backdrop-filter: blur(7px);
+    border-radius: 30px;
+    padding: 0px 20px;
+    margin: 0px 10px 0px 0px;
+    position: relative;
+}
+.services-banner-tr{
+    width: 40%;
+    height: auto;
+    min-height: 200px;
+    background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(247, 247, 247, 0.6);
+    backdrop-filter: blur(7px);
+    border-radius: 30px;
+    padding: 0px 20px;
+    margin: 0px 10px 0px 0px;
+    position: relative;
+}
+.btn-ser{
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.iconserv{
+    margin: 0px 10px;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+.elec-section{
+    text-align: center;
+}
+.elect-banner{
+    width: 100%;
+    min-height: 350px;
+    height: auto;
+    background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 45, 85, 0.1) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(247, 247, 247, 0.6);
+    backdrop-filter: blur(7px);
+    border-radius: 30px;
+    padding: 0px 20px;
+    margin: 0px 10px 0px 0px;
+    position: relative;
+}
+.bann-electoral{
+    background: linear-gradient(180deg, rgba(0, 45, 85, 0.3) 0%, rgba(32, 71, 106, 0.15) 100%), url("https://www.registraduria.gov.co/squelettes/images/bg-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    margin: 20px 0px;
+    padding: 20px;
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.cal-icon{
+    margin-left: 10px;
+}
+.accordion-button-m {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+}
+
+.entidades-carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pos-prevcontrol{
+    position: relative;
+    top: -50px;
+}
+.pos-nextcontrol{
+    position: relative;
+    top: -50px;
+}
+.carousel-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.imgcar{
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    max-width: 220px;
+    height: 100px;
+    /* background: linear-gradient(198.35deg, #FFFFFF 31.67%, rgba(255, 255, 255, 0.6) 87.55%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px); */
+}
+
+.databtn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-noticias {
+    padding: 0.25rem;
+    background-color: transparent;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    max-height: 430px;
+}
+
+.banner10{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 30px;
+}
+
+.googleNews {
+    position: relative;
+    width: auto;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 2px;
+    border: 2px solid #22f6eb;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 1;
+
+}
+
+.googleNews img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -20px;
+    left: -15px;
+    transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;     /** Chrome & Safari **/
+    -moz-transition: all 1.5s ease-in-out;     /** Firefox **/
+    -o-transition: all 1.5s ease-in-out;     /** Opera **/
+}
+
+#googleNews:hover .move-right {
+    transform: translate(450px, 0);
+    -webkit-transform: translate(450px, 0);     /** Chrome & Safari **/
+    -moz-transform: translate(450px, 0);    /** Firefox **/
+    -o-transform: translate(450px, 0);    /** Opera **/
+}
+
+.tituloNews {
+    background-color: #003057;
+    color: white;
+    padding: 8px 10px 8px 70px;
+    border: 2px solid #003057;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all .5s ease-in-out;
+
+}
+
+#googleNews:hover .tituloNews2 {
+    background-color: white;
+    color: #003057;
+    padding: 8px 70px 8px 10px;
+    border: 2px solid #003057;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: all .5s ease-in-out;
+
+}
+

@@ -1,0 +1,68 @@
+.services_module{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 30;
+    background: linear-gradient(198.35deg, #FFFFFF 31.67%, rgba(255, 255, 255, 0.6) 87.55%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    backdrop-filter: blur(4px);
+    border-radius: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.title-services{
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #002D55;
+    font-size: 1.5em;
+}
+.title-help{
+    color: #002D55;
+}
+.service-link{
+    max-height: 180px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.icon-service{
+    display: block !important;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: #002D55;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: initial;
+}
+.icotarjeta{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-agendamiento.svg");
+}
+.icocedula{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-tarjeta.svg");
+}
+.icolugar{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-lugarvotacion.svg");
+}
+.icojurado{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-jurado.svg");
+}
+.icopuntos-moviles{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-puntos-moviles-inscripcion.svg");
+}
+.title-service{
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #002D55;
+}

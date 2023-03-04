@@ -1,0 +1,48 @@
+.table-results ul {
+    list-style: none;
+    
+}
+
+.table-results ul li {
+    font-family: "Open Sans";
+    line-height: 25px;
+    font-size: 12px;
+}
+
+.table-results tr td a {
+    font-weight: 500;
+}
+
+
+.align-content-table{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.date-results{
+    font-family: "Open Sans";
+    font-weight: 100;
+    font-size: 12px;
+}
+
+strong{
+    font-family: "Open Sans";
+}
+
+.selectDepartment {
+    display: block;
+    background-color: #FFFFFF;
+    border: 2px solid #002D55;
+    box-sizing: border-box;
+    border-radius: 35px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    padding: 16px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: 25px;
+}
+
+.selectDepartment::placeholder {
+    color: lightcyan;
+}

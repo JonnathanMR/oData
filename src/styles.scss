@@ -1,0 +1,90 @@
+/********************PLATFORM STYLES******************/
+/*****FONTS*****/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/*****GENERAL STYLES*****/
+
+p{
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-right: 20px;
+    margin-top: 1rem;
+}
+
+h1, h2, h3, h4{
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin: 20px 0px;
+
+}
+
+li{
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 36px;
+    color: #002D55;
+}
+h2{
+    font-size: 24px;
+    color: #002D55;
+}
+h3{
+    font-size: 20px;
+    color: #002D55;
+}
+h4{
+    font-size: 18px;
+    color: #002D55;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:link{
+    text-decoration: none;
+
+
+}
+a:visited {
+    text-decoration: none;
+
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00AA95;
+}
+a:active{
+    text-decoration: none;
+}
+
+.a-normal{
+    font-weight: normal;
+    color: #6c757d;
+}
+
+#main{
+    display: block;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 100%;
+    /*background-image: url("https://www.registraduria.gov.co/squelettes/images/bg-neue.jpg");*/
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background: radial-gradient(circle at 67.6% 20.39%, rgba(255,255,255,0.5), transparent 69%),radial-gradient(circle at 88.75% 28.67%, rgba(255,255,255,0.5), transparent 60%),radial-gradient(circle at 13.33% 0.38%, #c8f7f4, transparent 38%),radial-gradient(circle at 86.77% 1.6%, #bfd4f5, transparent 39%),radial-gradient(circle at 81.09% 74.15%, rgba(255,255,255,0.5), transparent 57%),radial-gradient(circle at 67.81% 96.71%, #bedbf7, transparent 36%),radial-gradient(circle at 50% 50%, #ffffff, #ffffff 100%) ;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}

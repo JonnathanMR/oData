@@ -1,0 +1,1311 @@
+
+/*****MAIN COLLUM*****/
+.maincollumn{
+    display: block;
+    float: left;
+    height: auto;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.text-module{
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 20px 0px;
+}
+.image-module {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 60px 0px 50px 0px;
+}
+
+.image-module a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.image-module img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entry-image{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.entry-image img{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+/*****SERVICIOS*****/
+.services_module{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 30;
+    background: linear-gradient(198.35deg, #FFFFFF 31.67%, rgba(255, 255, 255, 0.6) 87.55%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    backdrop-filter: blur(4px);
+    border-radius: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.title-services{
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    color: #002D55;
+    font-size: 1.5em;
+}
+.title-help{
+    color: #002D55;
+}
+.service-link{
+    max-height: 180px;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.icon-service{
+    display: block !important;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: #002D55;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: initial;
+}
+.icotarjeta{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-agendamiento.svg");
+}
+.icocedula{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-tarjeta.svg");
+}
+.icolugar{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-lugarvotacion.svg");
+}
+.icojurado{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-jurado.svg");
+}
+.icopuntos-moviles{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-puntos-moviles-inscripcion.svg");
+}
+.title-service{
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #002D55;
+}
+
+/*****SLIDER*****/
+#carousel-home{
+    display: block;
+    position: relative;
+    height: auto;
+    z-index: 3;
+    margin: -115px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+
+}
+
+.slider-home{
+    display: block;
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.baseslide{
+    background-repeat: no-repeat;
+    background-position: right center;
+    /* background-position: 50% 50%; */
+    background-size: cover;
+    padding: 170px 0px 120px 0px;
+    min-height: 620px;
+    max-height: 620px;
+
+}
+.slide01{
+    min-height: 520px;
+    max-height: 520px;
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/sample-banner.jpeg");
+}
+
+.carousel-indicators [data-bs-target]{
+    border-top: none;
+    border-bottom: none;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    background-color: #00F5E8;
+}
+.carousel-indicators{
+    justify-content: left;
+    margin-bottom: 5rem;
+}
+.title-slide{
+    color: #ffffff;
+    margin-bottom: 20px;
+    min-height: 70px;
+}
+.text-slide{
+    color: #ffffff;
+    background-color: rgba(0,45,85,0.4);
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn-seemoreslide{
+    display: block;
+    float: left;
+    font-family: "Open Sans";
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #002D55;
+    border-radius: 35px;
+    padding: 10px 30px 10px 30px;
+    margin: 10px 0px 10px 0px;
+}
+.controls{
+    display: block;
+    float: right;
+    width: 100px;
+    height: auto;
+    background: aqua;
+    border-radius: 50px;
+    margin: -120px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+    z-index: 20;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: relative;
+
+    /* top: 0; */
+    /* bottom: 0; */
+    z-index: 80;
+    display: block;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 15%; */
+    /* padding: 0; */
+    color: #20476A;
+    text-align: center;
+    background: none;
+    border: 0;
+    /* opacity: 0.5; */
+    transition: opacity 0.15s ease;
+    width: 50px;
+    height: 35px;
+}
+.carousel-control-prev{
+    float: left;
+}
+.carousel-control-next{
+    float: right;
+}
+.carousel-control-prev-icon{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/arrow-left.svg");
+}
+.carousel-control-next-icon{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/arrow-right.svg");
+}
+
+.whois{
+    display: block;
+    float: left;
+    height: auto;
+    margin: 30px 0px;
+}
+.imawhois{
+    display: block;
+    float: left;
+    position: relative;
+    z-index: 5;
+}
+.imawhois img{
+    display: block;
+    float: right;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.title-whois{
+    display: block;
+    float: left;
+    position: relative;
+    z-index: 6;
+    /* padding-top: 120px; */
+    font-size: 1.5em;
+}
+.textwhois{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+}
+.blocks{
+    display: block;
+    height: auto;
+    float: right;
+}
+.blocksintern{
+    padding-top: 30px;
+}
+#mydocument{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 10px 0px;
+    padding: 0px 20px;
+
+}
+.titlemydoc, .titlestadistics{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 20px 0px;
+}
+.title-intern{
+    margin: 40px 0px 40px 0px;
+}
+.doc-intern{
+    margin-bottom: 40px;
+}
+.consulta-intern{
+    margin: 10px 0px 20px 0px;
+}
+.table-container{
+    margin-bottom: 40px;
+}
+.ico-document{
+    margin-top: 10px;
+}
+.list-options{
+    display: block;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.option-item{
+    display: block;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 7px;
+}
+.namefile{
+    margin-top: 7px;
+}
+.option-link{
+    display: block;
+    float: left;
+    width: 45px;
+    height: 45px;
+    background-color: #002D55;
+    border-radius: 40px;
+    background-position: 50% 50%;
+    background-size: initial;
+    background-repeat: no-repeat;
+}
+
+.mydocform{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+#stadistics{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.datastadistics{
+    text-align: center;
+    margin: 10px 0px;
+    float: left;
+    width: 100%;
+}
+.captiondata{
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.title-module{
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    text-align: center;
+}
+/*****NEWS*****/
+.listnews{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 30px 0px;
+}
+.newsmodule{
+    display: block;
+    float: left;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+}
+.imagenews{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 200px;
+    border-radius: 30px 30px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-top: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+}
+.imasample{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/sample-banner.jpeg");
+}
+.previewnew{
+    border-radius: 0px 0px 30px 30px;
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    min-height: 410px;
+    padding: 20px;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+}
+.titlepreview{
+    display: block;
+    float: left;
+    width: 100%;
+    text-overflow: ellipsis;
+    max-height: 120px;
+    min-height: 90px;
+    margin-bottom: 10px;
+}
+.datenew{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #005F79;
+}
+.captionnew{
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 70px;
+    max-height: 200px;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+}
+.seemorenew{
+    display: block;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-arrowseemore.svg");
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    transition: all .2s ease-in;
+}
+
+.seemorenew:hover{
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-arrowseemore-cyan.svg");
+    background-color: #002d55;
+}
+
+.seemoreban{
+    display: block;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url("https://www.registraduria.gov.co/squelettes/images/icon-arrowseemore.svg");
+    bottom: 50px;
+    right: 50px;
+    position: absolute;
+}
+
+/*****CALENDAR*****/
+#calendar{
+    display: block;
+    float: left;
+    margin-bottom: 40px;
+}
+.title-date{
+    margin-bottom: 30px;
+}
+.calcotainer{
+    display: block;
+    float: left;
+    padding: 10px;
+}
+#carousel-date{
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 30px 0px;
+}
+#caroudate{
+    margin: 20px 0px;
+}
+.date{
+    display: block;
+    float: left;
+    width: 33%;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+.daynum{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+}
+.daynam{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans";
+    font-weight: normal;
+}
+.dateactive{
+    background-color: #002D55;
+    border-radius: 30px;
+    padding: 20px 0px;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dateactive .daynum, .dateactive .daynam{
+    color: #00F5E8;
+}
+.detaildate{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.calendar-cont{
+
+    height: 243px;
+}
+/*****MENU LATERAL BUTTON*****/
+
+/*****BANERS MODULE*****/
+.bannercontainer{
+    display: block;
+    padding: 20px;
+}
+.mainbanner{
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 230px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 15px;
+}
+.bann-home{
+    background: linear-gradient(180deg, rgba(0, 45, 85, 0.3) 0%, rgba(32, 71, 106, 0.15) 100%), url("https://www.registraduria.gov.co/squelettes/images/bg-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bann-sice {
+    background: linear-gradient(180deg, rgba(0, 45, 85, 0.3) 0%, rgba(32, 71, 106, 0.15) 100%), url("https://www.registraduria.gov.co/squelettes/images/bg-banner-sice.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner-home{
+    margin-bottom: 40px;
+
+}
+.title-banner{
+    color: #FFFFFF;
+    text-align: left;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+    height: auto;
+    min-height: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.text-banner{
+    max-width: 75%;
+    height: auto;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0% 0px 0px;
+    float: left;
+    text-align: left;
+    color: #FFFFFF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.fullwcontainer{
+    padding-top: 40px;
+}
+.norms{
+    text-align: left;
+}
+
+
+/*******SUBMENU****/
+#suben01{
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.accordion{
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 30px;
+
+}
+.accordion-section {
+    background: linear-gradient(168.19deg, rgba(255, 255, 255, 0.8) 2.3%, rgba(255, 255, 255, 0.6) 96.38%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 30px !important;
+}
+
+.title-accordion{
+    color: #002D55;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0px 5px;
+}
+.list-submenu{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+
+}
+.mainmenu{
+    list-style: none;
+}
+.item-menu{
+    list-style: none;
+}
+.submenu{
+    list-style: none;
+}
+.item-submenu-section {
+    padding: 15px 10px;
+    list-style: none;
+    border-top: 1px solid #AEAEB2;
+
+}
+li:active.item-submenu-section{
+    background:#F2F2F7;
+    border: #002D55 2px solid;
+    color: black;
+}
+
+
+li:hover.item-submenu-section{
+    background-color: #F2F2F7;
+}
+
+
+a:link.link-style{
+    color: #000000;
+}
+a:visited.link-style{
+    color: black;
+}
+a:hover.link-style{
+    color: #002D55;
+
+}
+
+.accordion-body{
+    padding: 1rem 2rem;
+    color: black;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.breamobile{
+    display: none;
+}
+
+.data {
+    font-size: 12px;
+}
+.text-mobile{
+    display: none;
+}
+
+.mobheader {
+    display: none;
+}
+.breaddesk {
+    margin-bottom: 20px;
+}
+
+/*****RESPONSIVE STYLES*****/
+/* Small screens */ /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+
+    .googleNews {
+        max-width: 350px;
+    }
+
+    .googleNews img {
+        width: 90px;
+        height: 90px;
+        top: -22px;
+    }
+
+    .tituloNews {
+        padding: 6px 10px 6px 70px;
+    }
+
+    #googleNews:hover .tituloNews2 {
+        padding: 6px 70px 6px 10px;
+    }
+
+    #googleNews:hover .move-right {
+        transform: translate(300px, 0);
+        -webkit-transform: translate(300px, 0);     /** Chrome & Safari **/
+        -moz-transform: translate(300px, 0);    /** Firefox **/
+        -o-transform: translate(300px, 0);    /** Opera **/
+    }
+
+    .deskheader {
+        display: none;
+    }
+
+    .mobheader {
+        display: block;
+        z-index: 99;
+        width: 100%;
+        height: 70px;
+        background: linear-gradient(90.77deg, rgba(255, 255, 255, 0.72) 9.57%, rgba(255, 255, 255, 0.45) 95.45%);
+        backdrop-filter: blur(4px);
+        border-radius: 40px;
+        margin: 20px 0px 10px 0px;
+        padding: 5px;
+    }
+    .logoregistraduria{
+        /* background-position: 10px 5px; */
+        width: 70%;
+        height: 50px;
+        background-size: contain;
+        margin-top: 5px;
+    }
+    .mobsearchbox{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-quick{
+        width: 50%;
+    }
+    .mainbtn{
+        width: 100%;
+    }
+
+    #carousel-home {
+        margin-top: 20px;
+    }
+
+    .baseslide {
+        padding-top: 50px;
+        background-position: 75%;
+    }
+
+    .baseslide h1{
+        font-size: 26px;
+    }
+
+    .text-slide{
+        background-color: rgba(0,45,85,0.7);
+    }
+
+    .baseslide p{
+        font-size: 14px;
+    }
+
+    .btn-seemoreslide {
+        padding: 5px 20px 5px 20px;
+    }
+
+    .carousel-indicators{
+        margin-left: 10%;
+    }
+
+    .title-services {
+        margin-top: 20px;
+    }
+
+    .title-service {
+        padding: 0px 20px;
+    }
+
+    .title-whois {
+        padding-top: 30px;
+    }
+
+    .textwhois {
+        padding: 0px 30px;
+    }
+
+    .seemorenew {
+        bottom: 20px;
+    }
+
+    .select {
+        width: 100%;
+    }
+
+    .btn-data {
+        background-position: 20px 27px;
+        background-size: 8%;
+        padding: 10px 30px 10px 110px;
+        min-height: auto;
+        font-size: 14px;
+    }
+
+    .breaddesk {
+        display: none;
+    }
+
+    .breamobile {
+        display: block;
+    }
+
+    .text-intro-subhome {
+        display: none;
+    }
+
+    .text-mobile {
+        display: block;
+        color: #000000;
+    }
+
+    #text-intro-mobile {
+        width: 100%;
+        height: 100px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        display: none;
+    }
+
+    .containerbann-intern {
+        margin-top: 0;
+        padding: 0px 20px;
+    }
+
+    .imagebannintern-subhome {
+        height: 220px;
+        padding-top: 100px;
+    }
+
+    .title-section-subhome {
+        font-size: 20px; 
+    }
+
+    .btnsearch {
+        margin-top: 20px;
+    }
+
+    .table-list-files {
+        display: block;
+    }
+
+    /*****RESPONSIVE TABLE******/
+    #main-table {
+        border: 0;
+    }
+
+    #main-table caption {
+        font-size: 1.3em;
+    }
+
+    #main-table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    #main-table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+    }
+
+    #main-table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+    }
+
+    #main-table td::before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        width: 100%;
+        height: 20px;
+        text-align: left;
+    }
+
+    #main-table td:last-child {
+        border-bottom: 0;
+        min-height: 130px;
+    }
+
+    .btn-action {
+        margin-top: 0px !important;
+    }
+
+    .blocks {
+        display: none;
+    }
+
+    .button-link {
+        /* background-position: 50% 20%; */
+        /* background-size: 20px; */
+        /* padding-top: 35px; */
+        flex-direction: column;
+        line-height: 1em;
+        height: 65px;
+        font-size: 13px;
+    }
+    .button-link img {
+        padding-right: 0;
+        width: 40px;
+        height: 30px;
+    }
+
+    .controls {
+        width: 70px;
+        margin-right: 45px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 35px;
+    }
+
+    .boton-alice {
+        bottom: 140px;
+    }
+
+    .mdp-readabler-trigger-button-box.bottom-right {
+        bottom: 60px;
+    }
+
+    .imageart {
+        width: auto;
+        height: 100%;
+        border-radius: 30px;
+    }
+
+    .list-actions {
+        display: flex;
+        flex-direction: column;
+    }
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination{
+        justify-content: end !important;
+    }
+
+    /*****404Error*****/
+    .text-error-404 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0 0 0;
+        padding: 0;
+    }
+
+    .title-404 {
+        font-size: 100px;
+        font-weight: 700;
+    }
+
+    .notice-404 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .text-404 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .flex-section {
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .row-services-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .services-banner {
+        width: 100%;
+        height: auto;
+        background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(247, 247, 247, 0.6);
+        backdrop-filter: blur(7px);
+        border-radius: 30px;
+        padding: 0px 20px;
+        margin: 10px 10px;
+        position: relative;
+    }
+    .services-banner-tr{
+        width: 100%;
+        height: auto;
+        background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(247, 247, 247, 0.6);
+        backdrop-filter: blur(7px);
+        border-radius: 30px;
+        padding: 0px 20px;
+        margin: 0px 10px 0px 0px;
+        position: relative;
+    }
+    .services-banner-tr{
+        width: 100%;
+        height: auto;
+        background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(247, 247, 247, 0.6);
+        backdrop-filter: blur(7px);
+        border-radius: 30px;
+        padding: 0px 20px;
+        margin: 0px 10px 0px 0px;
+        position: relative;
+    }
+    .civil-register{
+        margin-left: 0;
+    }
+    .elect-banner{
+        margin: 20px 0px;
+        min-height: auto;
+    }
+    .content-footer{
+        flex-direction: column;
+    }
+    .btn-data-container{
+        min-width: 100%;
+    }
+    #mydocument {
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 30px 0px;
+        padding: 0px 20px;
+    }
+    .cedae{
+        background-image: url("https://www.registraduria.gov.co/squelettes/images/CEDAE.png");
+        background-position: 50% 20% !important;
+    }
+    .searchico{
+        background-image: none;
+        width: 0;
+    }
+}
+
+
+/* REPISADO CSS SPIP */
+
+/*******Medium screens****/
+@media only screen and (min-width: 40.063em) and (max-width: 74.9375em) {
+    .btn-data {
+        background-position: 20px 27px;
+        height: 100px;
+        padding: 10px 30px 10px 110px;
+        min-height: auto;
+
+    }
+    #mydocument {
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 30px 0px;
+        padding: 0px 20px;
+    }
+
+    .cedae {
+
+        background-position: 50% 33% !important;
+    }
+    .searchico{
+        background-image: none;
+    }
+    .button-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        width: 100%;
+        height: 75px;
+        background-repeat: no-repeat;
+        background-size: inherit;
+        background-position: 50% 33%;
+        background-color: rgb(0, 45, 85);
+        /* color: rgb(77, 108, 136); */
+        /* color: #0a4a83; */
+        color: #00F5E8;
+        font-size: 14px;
+        text-align: center;
+        /* padding-top: 45px; */
+    }
+    .active-button {
+        color: #002D55;
+    }
+} /* min-width 641px, medium screens */ /**** DISABLE BREAKPOINT***/
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+    .logoregistraduria {
+        height: 60px;
+        padding: 10px 0px;
+        background-size: contain;
+        background-position: 10px 0px
+    }
+    .mainbtn{
+        width: 60%;
+    }
+    .mobsearchbox{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-quick{
+        width: 50%;
+    }
+    .consultarbtn{
+        width: 100% !important;
+    }
+    .deskheader {
+        display: none;
+    }
+    .searchico{
+        background-image: none;
+    }
+    .mobheader {
+        display: block;
+        z-index: 99;
+        width: 100%;
+        height: 70px;
+        background: linear-gradient(90.77deg, rgba(255, 255, 255, 0.72) 9.57%, rgba(255, 255, 255, 0.45) 95.45%);
+        backdrop-filter: blur(4px);
+        border-radius: 40px;
+        margin: 20px 0px 10px 0px;
+        padding: 5px;
+    }
+
+    .btnsearch {
+        margin-top: 20px;
+    }
+
+    .button-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        width: 100%;
+        height: 75px;
+        background-repeat: no-repeat;
+        background-size: inherit;
+        background-position: 50% 33%;
+        background-color: rgb(0, 45, 85);
+        /* color: rgb(77, 108, 136); */
+        color: #00F5E8;
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .active-button {
+        color: #002D55;
+    }
+
+    .btn-data {
+        background-position: 20px 27px;
+        background-size: 8%;
+        height: 100px;
+        padding: 20px 0px 20px 90px;
+        min-height: auto;
+
+    }
+
+    .list-actions{
+        display: flex;
+        flex-direction: column;
+    }
+    /*****404Error*****/
+    .text-error-404{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 0 0 0;
+        padding: 0;
+
+    }
+    .title-404{
+        font-size: 100px;
+        font-weight: 700;
+    }
+    .notice-404{
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .text-404{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .row-services-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .services-banner{
+        width: 100%;
+        height: auto;
+        background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(247, 247, 247, 0.6);
+        backdrop-filter: blur(7px);
+        border-radius: 30px;
+        padding: 0px 20px;
+        margin: 10px 10px
+    }
+    .services-banner-tr{
+        width: 100%;
+        height: auto;
+        background: radial-gradient(142.58% 134.02% at -11.79% 9.62%, rgba(0, 245, 232, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.6);
+        border: 1px solid rgba(247, 247, 247, 0.6);
+        backdrop-filter: blur(7px);
+        border-radius: 30px;
+        padding: 0px 20px;
+        margin: 0px 10px 0px 0px;
+    }
+    .civil-register{
+        margin-left: 0;
+    }
+    #mydocument {
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 30px 0px;
+        padding: 0px 20px;
+    }
+    .elect-banner{
+        margin: 20px 0px;
+        min-height: auto;
+    }
+    .content-footer{
+        flex-direction: column;
+    }
+    .btn-data-container{
+        min-width: 100%;
+    }
+}
+/*******Large screens****/
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+/*******XLarge screens****/
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+/*******XXLarge screens****/
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
