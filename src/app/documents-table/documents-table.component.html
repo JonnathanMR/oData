@@ -10,31 +10,42 @@
     <div class="col">OTRO DOCUMENTO</div>
   </div>
 
-  <div class="row">
-    <div class="col">
-      <strong>2022</strong>
-    </div>
-    <div class="col">
-      <strong>Segunda Vuelta</strong><br>
-      <small>Elección de Presidente y Vicepresidente </small><br>
-      <strong class="date-results">19 de junio</strong>
-    </div>
-    <div class="col">
-      <a href="https://presidente2v2022.registraduria.gov.co/visualizarDoc" target="_blank">ACTA GENERAL DEL ESCRUTINIO (AGE)</a>
-    </div>
-    <div class="col">
-      <a href="#">ACTA DEL ESCRUTINIO GENERAL (E-26)</a>
-    </div>
-    <div class="col">
-      <a href="#">ACTA DEL ESCRUTINIO GENERAL (E-26)</a>
-    </div>
-    <div class="col">
-      <a href="#">RESULTADOS DEL ESCRUTIONO (E-24)</a>
-    </div>
-    <div class="col">
-      <a href="#">DATA PROCESO ELECTORAL</a>
-    </div>
+  <div *ngFor="let document of nivelNacional">
+    <div class="row">
+        <div class="col">
+          <strong>{{document.year}}</strong>
+        </div>
+        <div class="col">
+          <strong>{{document.eleccion}}</strong><br>
+          <small>{{document.categoria}} </small><br>
+          <strong class="date-results">{{document.fechaCategoria}}</strong>
+        </div>
+        <div class="col">
+          <a href={{document.urlAGE}} target="_blank">{{document.nombreAGE}}</a>
+        </div>
+        <div class="col">
+          <a href={{document.urlE26}} target="_blank">{{document.nombreE26}}</a>
+        </div>
+        <div class="col">
+          <a href={{document.urlE24}} target="_blank">{{document.nombreE24}}</a>
+        </div>
+        
+        <!-- renderizar link de acuerdos si lo tiene -->
+        <div class="col" *ngIf="document.urlAcuerdos != ''">
+            <a href={{document.urlAcuerdos}} target="_blank">{{document.nombreAcuerdos}}</a>
+        </div>
+        <!-- renderizar link de acuerdos si lo tiene -->
+        <!-- renderizar texto de acuerdos por falta de link -->
+        <div class="col" *ngIf="document.urlAcuerdos == ''">
+          <strong>{{document.nombreAcuerdos}}</strong>
+        </div>
+        <!-- renderizar texto de acuerdos por falta de link -->
+
+        <div class="col">
+          <a href={{document.urlDataProceso}} target="_blank">{{document.nombreData}}</a>
+        </div>
   </div>
+</div>
 </div>
 <br />
 <h4>PROCESO ELECTORAL DEPARTAMENTAL [NIVEL ESPECIFICO]</h4>
@@ -43,9 +54,9 @@
     <i class="fa fa-map-marker">&nbsp;</i><h4>DEPARTAMENTO</h4>
     <select class="custom-select selectDepartment">
       <option selected>Open this select menu</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
+      <option value="1">ANTIOQUIA</option>
+      <option value="2">BOGOTA DC</option>
+      <option value="3">VALLE</option>
     </select>
   </div>
   <div class="row">
@@ -68,19 +79,19 @@
       <strong class="date-results">19 de junio</strong>
     </div>
     <div class="col">
-      <a href="https://presidente2v2022.registraduria.gov.co/visualizarDoc" target="_blank">ACTA GENERAL DEL ESCRUTINIO (AGE)</a>
+      <a href="https://registraduriaco.sharepoint.com/:b:/s/DireccindeGestinElectoral209/EdER1-WGQHpMtCikZWFtlrwBFWbJcN7vnaw8CQ2uLNxTdA?e=pef4zw" target="_blank">ACTA GENERAL DEL ESCRUTINIO (AGE)</a>
     </div>
     <div class="col">
-      <a href="#">ACTA DEL ESCRUTINIO GENERAL (E-26)</a>
+      <a href="https://registraduriaco.sharepoint.com/:b:/s/DireccindeGestinElectoral209/ERJjblt82wpHo3fMYKdzt3wBdCuYaAqZwFor1RaEEZ496A?e=Nn5heS" target="_blank">ACTA DEL ESCRUTINIO GENERAL (E-26)</a>
     </div>
     <div class="col">
-      <a href="#">ACTA DEL ESCRUTINIO GENERAL (E-26)</a>
+      <a href="https://registraduriaco.sharepoint.com/:b:/s/DireccindeGestinElectoral209/EZEhLd64cOVMmKOazm9XIigBdlBj0SQ9vOTW_olYzVjOug?e=WUJ8FC" target="_blank">ACTA DEL ESCRUTINIO GENERAL (E-26)</a>
     </div>
     <div class="col">
-      <a href="#">RESULTADOS DEL ESCRUTIONO (E-24)</a>
+      <a href="https://registraduriaco.sharepoint.com/:b:/s/DireccindeGestinElectoral209/EQqWWjF6Rf5Ev6jH2AiKab0Bri7g41kz2Qp93AYwaGsI-Q?e=gMIH4g" target="_blank">RESULTADOS DEL ESCRUTIONO (E-24)</a>
     </div>
     <div class="col">
-      <a href="#">DATA PROCESO ELECTORAL</a>
+      <a href="https://registraduriaco.sharepoint.com/:x:/s/DireccindeGestinElectoral209/EW4SfksUAR9Pqa55ldX2i2YBB1MtZniUlr9oSwFe8xxXNg?e=feQMi1" target="_blank">DATA PROCESO ELECTORAL</a>
     </div>
   </div>
 </div>
